@@ -12,11 +12,14 @@ body {
 }
 
 .container {
-    width: 25vw;
+    color: white;
+    width: 20vw;
     height: auto;
     display: flex;
     flex-direction: column;
     border: 2px palevioletred solid;
+    border-radius: 14px;
+    background:linear-gradient(to top right ,rgba(9, 9, 11, 0.65) 2%,rgba(0, 0, 0, 0.95) );
 }
 .container > div {
     display: flex;
@@ -25,19 +28,21 @@ body {
 }
 .container > div > div {
     flex: 1;
-    border: 2px purple solid;
+    /* border: 2px purple solid; */
     line-height: 10vh;
     font-size: 1.5rem;
 }
 .output {
     min-height: 100px;
-    width: 100%;
-    border: 2px grey solid;
+    width: auto;
+    height: 20vh !important;
+    margin: 0px 1rem;
+    border-bottom: 2px grey solid;
 }
 #display {
     margin-left: auto;
     margin-top: auto;
-    font-size: 1.5rem;
+    font-size: 3rem;
     font-weight: 400;
 }
 @media screen and (max-width: 750px){
