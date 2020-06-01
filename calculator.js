@@ -7,10 +7,6 @@ var operator = null ;
 for (var i = 0 ; i < buttons.length ; i++){
     buttons[i].addEventListener('click',function() {
         var value = this.getAttribute('data-value');
-        if (value != this.innerText){
-            display.innerText = "nice one !!";
-            return;
-        }
         switch (value){
             case 'clear': 
                 display.innerText = '';
