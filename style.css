@@ -35,7 +35,7 @@ body {
 .output {
     min-height: 100px;
     width: auto;
-    height: 20vh !important;
+    height: 25vh !important;
     margin: 0px 1rem;
     border-bottom: 2px grey solid;
 }
